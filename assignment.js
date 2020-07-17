@@ -3,16 +3,13 @@ function feetToMile( feet){
     var mile=feet/5280;
     return mile;
 }
-var fristRunner=feetToMile(25555);
-fristRunner=fristRunner.toFixed(3)
-console.log("Frist Runner Run:", fristRunner,"Mile");
-var secondRunner=feetToMile(60236);
-secondRunner=secondRunner.toFixed(3);
-console.log("Second Runner Run:",secondRunner,"Mile");
-var thirdRunner=feetToMile(60736);
-thirdRunner=thirdRunner.toFixed(3);
-console.log("Third Runner Run:",thirdRunner,"Mile");
-
+var newmile = feetToMile(-18530);
+if(newmile > 0){
+    console.log(newmile);
+}
+else{
+    console.log("Distance always positive");
+}
 //Feet to Mile End
 
 // Cube Count Start
